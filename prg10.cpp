@@ -13,7 +13,7 @@ int main() {
     if (ch >= 'A' && ch <= 'Z')
         cout << ch << " is an Uppercase letter.";
     else if (ch >= 'a' && ch <= 'z')
-        cout << ch << " is a Lowercase letter.";
+        cout << ch << " is a Lowercase letter."s;
     else
         cout << ch << " is not an alphabet.";
 
