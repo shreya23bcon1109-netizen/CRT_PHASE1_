@@ -3,11 +3,11 @@
 using namespace std;
 
 int main() {
-    int a, b, result;
+    int a , b, result;
 
     // Input two integers
     cout << "Enter two integers: ";
-    cin >> a >> b;
+    cin >> a  >> b;
 
     // Multiply a by 4 using left shift operator
     result = a << 2;
