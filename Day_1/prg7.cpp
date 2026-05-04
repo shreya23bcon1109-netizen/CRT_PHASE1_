@@ -3,15 +3,15 @@
 using namespace std;
 
 int main() {
-    int a, b, c, sum;
+    int a, b, e, sum;
     float average;
 
     // Input three integers
     cout << "Enter three integers: ";
-    cin >> a >> b >> c;
+    cin >> a >> b >> e;
 
     // Calculate sum
-    sum = a + b + c;
+    sum = a + b + e;
 
     // Calculate average
     average = sum / 3.0;
