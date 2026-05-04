@@ -7,7 +7,7 @@ int main() {
 
     // Input two integers
     cout << "Enter two integers: ";
-    cin >> a  >> b;
+    cin >> a >> b;
 
     // Multiply a by 4 using left shift operator
     result = a << 2;
