@@ -6,7 +6,7 @@ int main(){
     int i=1;
 
     do {
-       cout<<i<<"  "; 
+       cout<<i<<" "; 
        i++;
     }
     while (i<=10);

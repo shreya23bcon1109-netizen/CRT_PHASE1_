@@ -15,6 +15,6 @@ int main() {
 
     // Displaying result
     cout << "Temperature in Fahrenheit: " << fahrenheit << "°F" << endl;
-
+67
     return 0;
 }
