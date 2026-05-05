@@ -1,3 +1,5 @@
+//right triangle//
+
 #include<iostream>
 using namespace std;
 
