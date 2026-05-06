@@ -7,7 +7,7 @@ using namespace std;
     int rollNo;
 //default constructor
     Student(){
-        name="SHREYA";
+        name="SREYA";
         rollNo =10;
     }
 //print
