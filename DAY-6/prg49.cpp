@@ -1,29 +1,31 @@
-//object class 2
+//parameterized
 
 #include<iostream>
 using namespace std;
 
-class student{
-
-    private:
-    int registrationNo = 22399109 ;
-
-
-    public:
+class Cricketers{
+public:
     string name;
-    int studentClass;
+    int runs;
+    double avg;
 
-       void display(){
-        cout<<"NAME:"<<name<<endl;
-        cout<<"STUDENT CLASS:"<<studentClass<<endl;
-        cout<<"REGISTRATION NO: "<<registrationNo<<endl;
-        registrationNo++;
-       }
+    //parameterized
+    Cricketers(string n, int r, double a){
+        name=n;
+        runs = r;
+        this->avg = a;
+    }
+        void show(){
+            cout<<"NAME:"<<name<<endl;
+            cout<<"RUNS:"<<runs<<endl;
+            cout<<"AVERAGE:"<<avg<<endl;
+        }
     };
-       int main(){
-        student s1;
-        s1.name ="shreya";
-        s1.studentClass =10;
-        s1.display();
-       }
 
+    int main(){
+        Cricketers c1("sachin",1000,50.22);
+         c1.show();
+    
+    return 0; 
+
+}
