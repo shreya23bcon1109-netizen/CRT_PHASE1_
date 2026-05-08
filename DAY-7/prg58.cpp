@@ -1,1 +1,2 @@
 // create  college management system in that in base class containing name, age  and two derived class student and teacher contain their data respectively then also create virtual function in that by default they are the part of the college otherwise they are the part so they belong to  derived class.
+  -
